@@ -1,4 +1,5 @@
 import * as React from 'react';
+import style from '@/modules/navbar.module.css'
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -48,7 +49,7 @@ function Navbar(props) {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar component="nav">
+      <AppBar component="nav" className={style.navbar}>
         <Toolbar>
           <IconButton
             color="inherit"

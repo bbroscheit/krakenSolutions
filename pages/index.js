@@ -3,7 +3,7 @@ import Image from "next/image";
 import aboutPic from "@/image/genteTrabajando.png";
 import styles from "@/modules/index.module.css";
 import AdsClickIcon from "@mui/icons-material/AdsClick";
-import Cards from '@/componentes/staffCard';
+import Cards from "@/componentes/staffCard";
 
 const services = [
   {
@@ -44,8 +44,6 @@ const services = [
   },
 ];
 
-
-
 export default function Home() {
   return (
     <>
@@ -67,12 +65,18 @@ export default function Home() {
             />
           </div>
           <div className={styles.aboutText}>
-            <h2> Algun titulo copante</h2>
+            <h2>Nuestra Filosofía</h2>
             <p>
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+              Kraken nació como un grupo de amigos con una misión en mente: poder solucionar los
+              problemas de sus computadoras antes que sucedan, y llevar a las compañias y emprendendores a que tengan una presencia en el mundo virtual.
+            </p>
+            <p>
+              Nuestro compromiso es ayudarlo a potenciar el rendimiento y la
+              calidad de los servidores a través de un mantenimiento informático
+              que sea responsable, previsor y confiable.
+            </p>
+            <p>
+              Y crear las herramientas informaticas necesarias para cumplir sus objetivos.
             </p>
             <button>Contactar</button>
           </div>
@@ -104,10 +108,9 @@ export default function Home() {
             Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
             gentrify, subway tile poke farm-to-table.
           </h3>
-        </div> 
+        </div>
         <Cards />
       </div>
-      
     </>
   );
 }
