@@ -61,13 +61,21 @@
 
 .servicesContainer{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color:chocolate;
+    
 }
 
 .servicesTitle{
     text-align: center;
     margin: 2rem;
+}
+
+.serviceContainer{
+    background-image: url("https://res.cloudinary.com/de2od3piw/image/upload/v1670456611/pics/kenzie_blog_desenvolvedor-de-software_cv6evn.webp");
+    background-position: center;
+    background-size: cover;
+    color: antiquewhite;
 }
 
 .servicesCardContainer{
@@ -94,15 +102,41 @@
 
 .staffContainer{
     width: 100%;
-    height: 100vh;
-    background-color:darkgreen;
+    min-height: 100vh;
+    padding: 16px;
 }
 
 .footerContainer{
     width: 100%;
-    height: 100vh;
-    background-color:darksalmon;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://res.cloudinary.com/de2od3piw/image/upload/v1669144052/pics/background_yloyzt.jpg");
+    background-position: center;
+    background-size: cover;
+    color: antiquewhite;
 }
+
+.buttonForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.firstForm{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+
+
 
 
 

@@ -80,9 +80,9 @@ export default function RecipeReviewCard() {
       />
       <CardMedia
         component="img"
-        height="194"
-        image="/static/images/cards/paella.jpg"
-        alt="Paella dish"
+        height="300"
+        image="https://res.cloudinary.com/de2od3piw/image/upload/v1669759185/pics/IMG_20221120_235115_j47far.jpg"
+        alt="Bernardo Broscheit"
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">

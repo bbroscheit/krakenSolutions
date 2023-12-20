@@ -84,6 +84,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.container}>
+      <div className={styles.serviceContainer}> 
         <div className={styles.servicesTitle}>
           <h1  className={styles.servicesTitle}>Nuestros Servicios</h1>
           <h3>
@@ -101,7 +102,9 @@ export default function Home() {
             ))}
         </div>
       </div>
+      </div>
       <div className={styles.container}>
+      <div className={styles.staffContainer}>
         <div className={styles.servicesTitle}>
           <h1>Nuestro Staff</h1>
           <h3>
@@ -109,6 +112,7 @@ export default function Home() {
           </h3>
         </div>
         <Cards />
+      </div>
       </div>
     </>
   );
