@@ -14,27 +14,27 @@ const services = [
   },
   {
     icon: <AdsClickIcon />,
-    title: "Shooting Stars",
+    title: "Camaras de seguridad",
     description:
-      "Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.",
+      "Proveemos equipamiento para que su empresa esté protegida las 24 hs.",
   },
   {
     icon: <AdsClickIcon />,
-    title: "Shooting Stars",
+    title: "Soporte de Computadoras",
     description:
-      "Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.",
+      "Soporte informático para sus computadoras y servidores.",
   },
   {
     icon: <AdsClickIcon />,
-    title: "Shooting Stars",
+    title: "Atención Inmediata",
     description:
-      "Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.",
+      "Contamos con atención telefónica, Whatsapp y mail.",
   },
   {
     icon: <AdsClickIcon />,
-    title: "Shooting Stars",
+    title: "Optimización de equipos",
     description:
-      "Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.",
+      "Soluciones informáticas contempla todos los aspectos de su equipo. Ya sea software, hardware, o redes, trabajos para prevenir y solucionar todos sus problemas informáticos.",
   },
   {
     icon: <AdsClickIcon />,
@@ -56,16 +56,17 @@ export default function Home() {
       <div className={styles.heroContainer}></div>
       <div className={styles.container}>
         <div className={styles.aboutContainer}>
-          <div>
+          {/* <div>
             <Image
               src={aboutPic}
               width={450}
               height={300}
               alt="Picture of About"
             />
-          </div>
+          </div> */}
           <div className={styles.aboutText}>
-            <h2>Nuestra Filosofía</h2>
+            <h1 className={styles.title}>Nuestra Filosofía</h1>
+            <div className={styles.aboutParagraph}>
             <p>
               Kraken nació como un grupo de amigos con una misión en mente: poder solucionar los
               problemas de sus computadoras antes que sucedan, y llevar a las compañias y emprendendores a que tengan una presencia en el mundo virtual.
@@ -78,16 +79,15 @@ export default function Home() {
             <p>
               Y crear las herramientas informaticas necesarias para cumplir sus objetivos.
             </p>
-            <button>Contactar</button>
+            </div>
           </div>
         </div>
       </div>
       <div className={styles.container}>
         <div className={styles.servicesTitle}>
-          <h1>Nuestros Servicios</h1>
+          <h1  className={styles.servicesTitle}>Nuestros Servicios</h1>
           <h3>
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table.
+          Podemos brindarle una solución integral de mantenimiento a través de planes de abonos personalizados.
           </h3>
         </div>
         <div className={styles.servicesCardContainer}>
@@ -105,8 +105,7 @@ export default function Home() {
         <div className={styles.servicesTitle}>
           <h1>Nuestro Staff</h1>
           <h3>
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table.
+          Le brindamos un servicio profesional a un precio insuperable para que usted solo se concentre en su negocio
           </h3>
         </div>
         <Cards />
