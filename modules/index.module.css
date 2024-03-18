@@ -93,6 +93,7 @@
     padding: 32px;
     border-radius: 15px;
     max-width: 30%;
+    backdrop-filter: blur(10px);
 }
 
 .servicesCard h3{
