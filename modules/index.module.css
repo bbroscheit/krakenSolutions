@@ -135,6 +135,23 @@
     
 }
 
+.firstForm input{
+    border: 1px solid white;
+    background-color: none;
+    color:white;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 8px ;
+}
+
+.firstForm textarea{
+    border: 1px solid white;
+    background-color: none;
+    color:white;
+    border-radius: 5px;
+    padding: 8px ;
+}
+
 
 
 
