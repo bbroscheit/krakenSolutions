@@ -3,6 +3,7 @@ import Image from "next/image";
 import aboutPic from "@/image/genteTrabajando.png";
 import styles from "@/modules/index.module.css";
 import AdsClickIcon from "@mui/icons-material/AdsClick";
+
 import Cards from "@/componentes/staffCard";
 
 const services = [
@@ -68,16 +69,19 @@ export default function Home() {
             <h1 className={styles.title}>Nuestra Filosofía</h1>
             <div className={styles.aboutParagraph}>
             <p>
-              Kraken nació como un grupo de amigos con una misión en mente: poder solucionar los
-              problemas de sus computadoras antes que sucedan, y llevar a las compañias y emprendendores a que tengan una presencia en el mundo virtual.
+            Bienvenido a Kraken, donde la tecnología se encuentra con la innovación para llevar su negocio al siguiente nivel. Conformado por un equipo de tres amigos apasionados por la excelencia en sus respectivas áreas, Kraken se destaca por su enfoque integral y su compromiso inquebrantable con la satisfacción del cliente.
             </p>
             <p>
-              Nuestro compromiso es ayudarlo a potenciar el rendimiento y la
-              calidad de los servidores a través de un mantenimiento informático
-              que sea responsable, previsor y confiable.
+            Desde nuestro inicio, nos hemos dedicado a una misión clara: anticipar y resolver los problemas informáticos antes de que surjan, permitiendo así que empresas y emprendedores puedan destacarse en el vasto mundo virtual.
             </p>
             <p>
-              Y crear las herramientas informaticas necesarias para cumplir sus objetivos.
+            Nuestro equipo está compuesto por expertos en diferentes campos: un fullstack developer con amplia experiencia en el desarrollo de soluciones digitales innovadoras, un estratega de marketing con visión estratégica y creatividad sin límites, y un especialista en servidores y seguridad web que garantiza la integridad y protección de sus datos.
+            </p>
+            <p>
+            En Kraken, no solo ofrecemos servicios, sino que forjamos asociaciones sólidas basadas en la confianza mutua y el compromiso compartido con la excelencia. Permítanos ser su socio tecnológico confiable mientras navega por las aguas del mundo digital. Juntos, podemos hacer que su visión se convierta en realidad.
+            </p>
+            <p>
+            Descubra cómo podemos transformar su negocio hoy mismo con Kraken.
             </p>
             </div>
           </div>
