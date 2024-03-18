@@ -1,9 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
-import aboutPic from "@/image/genteTrabajando.png";
 import styles from "@/modules/index.module.css";
 import AdsClickIcon from "@mui/icons-material/AdsClick";
-
 import Cards from "@/componentes/staffCard";
 
 const services = [
