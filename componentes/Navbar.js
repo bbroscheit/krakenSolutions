@@ -14,7 +14,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import { FaGitkraken } from "react-icons/fa6";
+// import  FaGitkraken  from "react-icons/fa6/FaGitkraken";
 
 const drawerWidth = 240;
 const navItems = ['Nuesta visión', 'Servicios', 'Staff', 'Contacto'];
@@ -67,7 +67,7 @@ function Navbar(props) {
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
             className={style.mainIcon}
           >
-            <FaGitkraken />
+            {/* <FaGitkraken /> */}
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (

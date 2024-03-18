@@ -105,6 +105,7 @@
     width: 100%;
     min-height: 100vh;
     padding: 16px;
+    padding-bottom: 64px;
     background-color: rgba(0, 0, 0, 0.856);
     color: white;
 }

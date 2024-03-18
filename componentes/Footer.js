@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import styles from "@/modules/index.module.css";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
@@ -34,7 +33,7 @@ function Footer() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    
+
     Swal.fire({
       title: 'Tu Email fue enviado!',
       icon: 'success',
