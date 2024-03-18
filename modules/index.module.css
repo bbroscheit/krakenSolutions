@@ -104,6 +104,8 @@
     width: 100%;
     min-height: 100vh;
     padding: 16px;
+    background-color: rgba(0, 0, 0, 0.856);
+    color: white;
 }
 
 .footerContainer{
@@ -137,7 +139,8 @@
 
 .firstForm input{
     border: 1px solid white;
-    background-color: none;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
     color:white;
     border-radius: 5px;
     height: 40px;
@@ -146,7 +149,8 @@
 
 .firstForm textarea{
     border: 1px solid white;
-    background-color: none;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
     color:white;
     border-radius: 5px;
     padding: 8px ;
