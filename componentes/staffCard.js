@@ -8,6 +8,7 @@ import CardActions from '@mui/material/CardActions';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import DesktopWindowsRoundedIcon from '@mui/icons-material/DesktopWindowsRounded';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -96,6 +97,9 @@ export default function RecipeReviewCard() {
         </IconButton>
         <IconButton aria-label="add to favorites">
           <a href='https://portfolio-orcin-tau-18.vercel.app/'> <DesktopWindowsRoundedIcon /></a>
+        </IconButton>
+        <IconButton aria-label="add to favorites">
+          <a href='https://www.linkedin.com/in/bernardo-broscheit-94b567144/'> <LinkedInIcon /></a>
         </IconButton>
       </CardActions>
     </Card>

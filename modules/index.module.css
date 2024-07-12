@@ -43,6 +43,12 @@
     color: antiquewhite;
 }
 
+.aboutParagraph p{
+    
+    text-align: center;
+    
+}
+
 .aboutText p{
     text-align: justify;
     padding: 8px 0px;
