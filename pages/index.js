@@ -66,19 +66,23 @@ export default function Home() {
             <h1 className={styles.title}>Nuestra Filosofía</h1>
             <div className={styles.aboutParagraph}>
             <p>
-            Bienvenido a Kraken, donde la tecnología se encuentra con la innovación para llevar su negocio al siguiente nivel. Conformado por un equipo de tres amigos apasionados por la excelencia en sus respectivas áreas, Kraken se destaca por su enfoque integral y su compromiso inquebrantable con la satisfacción del cliente.
+            Bienvenido a Kraken, donde la tecnología e innovación llevan su negocio al siguiente nivel. Conformado por tres amigos apasionados y expertos en sus áreas, destacamos por nuestro enfoque integral y compromiso con la satisfacción del cliente.
             </p>
             <p>
-            Desde nuestro inicio, nos hemos dedicado a una misión clara: anticipar y resolver los problemas informáticos antes de que surjan, permitiendo así que empresas y emprendedores puedan destacarse en el vasto mundo virtual.
+            Desde nuestro inicio, nos dedicamos a anticipar y resolver problemas informáticos, permitiendo a empresas y emprendedores destacarse en el mundo virtual.
+
             </p>
             <p>
-            Nuestro equipo está compuesto por expertos en diferentes campos: un fullstack developer con amplia experiencia en el desarrollo de soluciones digitales innovadoras, un estratega de marketing con visión estratégica y creatividad sin límites, y un especialista en servidores y seguridad web que garantiza la integridad y protección de sus datos.
+            Nuestro equipo incluye un fullstack developer especializado en soluciones digitales innovadoras, un estratega de marketing con visión creativa y estratégica, y un especialista en servidores y seguridad web para garantizar la protección de sus datos.
+
             </p>
             <p>
-            En Kraken, no solo ofrecemos servicios, sino que forjamos asociaciones sólidas basadas en la confianza mutua y el compromiso compartido con la excelencia. Permítanos ser su socio tecnológico confiable mientras navega por las aguas del mundo digital. Juntos, podemos hacer que su visión se convierta en realidad.
+            En Kraken, forjamos asociaciones basadas en la confianza y el compromiso con la excelencia. Sea nuestro socio tecnológico confiable mientras navega por el mundo digital. Juntos, hagamos realidad su visión.
+
             </p>
             <p>
-            Descubra cómo podemos transformar su negocio hoy mismo con Kraken.
+            Descubra cómo transformar su negocio hoy con Kraken.
+
             </p>
             </div>
           </div>

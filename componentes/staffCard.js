@@ -29,7 +29,7 @@ export default function RecipeReviewCard() {
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-        Nuestro maestro del marketing y las ventas en Kraken es el arquitecto detrás de nuestra presencia digital. Con una mente estratégica y creativa, desarrolla campañas innovadoras que destacan la singularidad de nuestros servicios. Su capacidad para conectar con nuestra audiencia y generar oportunidades de negocio es incomparable. Con una pasión contagiosa por el crecimiento y la visión empresarial, es el impulsor clave de nuestro éxito comercial.
+        Nuestro líder de marketing y ventas es el arquitecto de nuestra presencia digital. Con una mente estratégica y creativa, desarrolla campañas innovadoras que resaltan la singularidad de nuestros servicios. Su habilidad para conectar con la audiencia y generar oportunidades de negocio es excepcional. 
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -48,16 +48,18 @@ export default function RecipeReviewCard() {
       />
       <CardMedia
         component="img"
-        height="194"
-        image="/static/images/cards/paella.jpg"
-        alt="Paella dish"
+
+        height="300"
+        image="https://res.cloudinary.com/de2od3piw/image/upload/v1710778975/Imagen_de_WhatsApp_2024-03-18_a_las_13.10.37_f5409ec2_gy1igk.jpg"
+        alt="Lucas LLamanzarez"
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-        Nuestro experto en seguridad informática y servidores es el guardián digital de Kraken. Con una sólida formación y experiencia en el diseño, implementación y mantenimiento de sistemas seguros, se dedica a proteger la integridad de los datos y la estabilidad de los servidores de nuestros clientes. Su enfoque proactivo y su habilidad para anticipar y mitigar riesgos garantizan una tranquilidad total en el ámbito digital. Con un compromiso inquebrantable con la seguridad y la eficiencia, es el pilar sobre el cual se sustenta nuestra infraestructura tecnológica.
+        Nuestro experto en seguridad informática y servidores en Kraken es el guardián digital de nuestros sistemas. Con sólida experiencia en diseño, implementación y mantenimiento de sistemas seguros, se dedica a proteger la integridad de los datos y la estabilidad de los servidores de nuestros clientes. Su enfoque proactivo puede anticipar riesgos garantizando tranquilidad digital. 
+
         </Typography>
       </CardContent>
-      <CardActions disableSpacing>
+      {/* <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">
           <a><InstagramIcon /></a>
         </IconButton>
@@ -67,7 +69,7 @@ export default function RecipeReviewCard() {
         <IconButton aria-label="add to favorites">
           <a><DesktopWindowsRoundedIcon /></a>
         </IconButton>
-      </CardActions>
+      </CardActions> */}
     </Card>
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
@@ -82,7 +84,7 @@ export default function RecipeReviewCard() {
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-        Nuestro genio del desarrollo web en Kraken es el arquitecto digital de nuestras soluciones. Con un dominio completo de las últimas tecnologías, crea experiencias en línea cautivadoras y funcionales que superan las expectativas de nuestros clientes. Su enfoque versátil y su atención meticulosa al detalle garantizan resultados impecables en cada proyecto. Apasionado por la innovación y la excelencia técnica, es el motor impulsor de nuestra presencia en el mundo virtual.
+        En Kraken, nuestro experto en desarrollo web es el arquitecto digital de nuestras soluciones. Con dominio de las últimas tecnologías, crea experiencias en línea cautivadoras y funcionales que superan expectativas. Su enfoque meticuloso y atención al detalle aseguran resultados impecables en cada proyecto.
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
