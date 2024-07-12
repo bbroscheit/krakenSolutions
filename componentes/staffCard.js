@@ -63,17 +63,17 @@ export default function RecipeReviewCard() {
 
         </Typography>
       </CardContent>
-      {/* <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
+      <CardActions disableSpacing>
+        {/* <IconButton aria-label="add to favorites">
           <a><InstagramIcon /></a>
         </IconButton>
         <IconButton aria-label="share">
           <a><GitHubIcon /></a>
-        </IconButton>
+        </IconButton> */}
         <IconButton aria-label="add to favorites">
-          <a><DesktopWindowsRoundedIcon /></a>
+          <a href='https://www.linkedin.com/in/lucas-llamanzarez-8a4a06a1/'> <LinkedInIcon /></a>
         </IconButton>
-      </CardActions> */}
+      </CardActions>
     </Card>
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
