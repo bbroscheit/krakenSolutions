@@ -40,6 +40,9 @@ export default function RecipeReviewCard() {
         <IconButton aria-label="share">
           <a><FacebookIcon /></a>
         </IconButton>
+        <IconButton aria-label="add to favorites">
+          <a href='https://www.linkedin.com/in/matias-gabriel-asencio-202ba6165/'> <LinkedInIcon /></a>
+        </IconButton>
       </CardActions>
     </Card>
     <Card sx={{ maxWidth: 345 }}>
