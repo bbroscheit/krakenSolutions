@@ -6,39 +6,39 @@ import Cards from "@/componentes/staffCard";
 const services = [
   {
     icon: <AdsClickIcon />,
-    title: "Shooting Stars",
+    title: "Diseño Web",
     description:
-      "Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.",
+      "Creamos sitios web atractivos, funcionales y adaptables a todos los dispositivos, optimizados para ofrecer una experiencia de usuario excelente y lograr tus objetivos en línea.",
   },
   {
     icon: <AdsClickIcon />,
-    title: "Camaras de seguridad",
+    title: "Marketing Digital",
     description:
-      "Proveemos equipamiento para que su empresa esté protegida las 24 hs.",
+      "Desarrollamos estrategias de marketing digital personalizadas para aumentar tu presencia en internet, atraer más clientes y mejorar la conversión a través de SEO, SEM, redes sociales y más.",
   },
   {
     icon: <AdsClickIcon />,
-    title: "Soporte de Computadoras",
+    title: "Optimizacion de equipos",
     description:
-      "Soporte informático para sus computadoras y servidores.",
+      "Mejoramos el rendimiento de tus equipos mediante configuraciones personalizadas y ajustes que garantizan mayor velocidad, eficiencia y vida útil del hardware.",
   },
   {
     icon: <AdsClickIcon />,
-    title: "Atención Inmediata",
+    title: "Mantenimiento Preventivo",
     description:
-      "Contamos con atención telefónica, Whatsapp y mail.",
+      "Prolonga la vida útil de tus dispositivos con un mantenimiento preventivo regular, asegurando que tus equipos funcionen de manera óptima y evitando fallos inesperados.",
   },
   {
     icon: <AdsClickIcon />,
-    title: "Optimización de equipos",
+    title: "Control de Redes y Servidores",
     description:
-      "Soluciones informáticas contempla todos los aspectos de su equipo. Ya sea software, hardware, o redes, trabajos para prevenir y solucionar todos sus problemas informáticos.",
+      "Monitoreamos y gestionamos tus redes y servidores para asegurar un funcionamiento ininterrumpido, garantizando la seguridad y el rendimiento de tu infraestructura tecnológica.",
   },
   {
     icon: <AdsClickIcon />,
-    title: "Shooting Stars",
+    title: "Asistencia 24/7",
     description:
-      "Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.",
+      "Ofrecemos soporte técnico continuo, las 24 horas del día, los 7 días de la semana, para resolver cualquier problema técnico que pueda surgir, manteniendo tu negocio en funcionamiento sin interrupciones.",
   },
 ];
 
