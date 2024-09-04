@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "@/modules/index.module.css";
 import AdsClickIcon from "@mui/icons-material/AdsClick";
 import Cards from "@/componentes/staffCard";
+import CardPortfolio from "@/componentes/CardPortfolio";
 
 const services = [
   {
@@ -97,14 +98,9 @@ export default function Home() {
           </h3>
         </div>
         <div className={styles.servicesCardContainer}>
-          {services &&
-            services.map((s) => (
-              <div className={styles.servicesCard}>
-                {s.icon}
-                <h3>{s.title}</h3>
-                <p>{s.description}</p>
-              </div>
-            ))}
+            {
+              services.map( e => <CardPortfolio key={e.title} title={e.title} detail={e.description}/>)
+            }
         </div>
       </div>
       </div>

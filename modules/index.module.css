@@ -82,6 +82,7 @@
     background-position: center;
     background-size: cover;
     color: antiquewhite;
+    width: 100%;
 }
 
 .servicesCardContainer{
@@ -91,7 +92,7 @@
     flex-wrap: wrap;
     margin: 1rem;
     gap: 1rem;
-
+    width: 100%;
 }
 
 .servicesCard{
@@ -163,6 +164,40 @@
     border-radius: 5px;
     padding: 8px ;
 }
+
+
+/* gira tarjeta */
+
+.cardflip{
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+ }
+
+.flipContainer{
+   background-color: transparent;
+   width: 300px;
+   min-height: 500px;
+   perspective: 1000px;
+}
+
+.flipContainer:hover .cardflip {
+    transform: rotateY(180deg);
+  }
+
+  .front{
+    position: absolute;
+    backface-visibility: hidden;
+  }
+
+ .back{
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    
+  }
+
+/* gira tarjeta fin*/
 
 
 
